@@ -27,6 +27,8 @@ This repository contains all tasks, projects, and deliverables completed during 
 
 ### ✅ Task 1 — Linear Regression: House Price Predictor
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/https://github.com/anujjoga/Maincrafts-AIML-Internship/blob/main/Task1/task1_ml_linear_regression.ipynb)
+
 > Build & Evaluate a Linear Regression Model on the California Housing Dataset
 
 | File | Description |
