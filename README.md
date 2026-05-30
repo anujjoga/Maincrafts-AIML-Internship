@@ -10,7 +10,7 @@
 
 ## 📌 About This Repository
 
-This repository contains all tasks, projects, and deliverables completed during my **Artificial Intelligence & Machine Learning Internship** at **Maincrafts Technology**.
+This repository contains all tasks and deliverables completed during my **AI & Machine Learning Internship** at **Maincrafts Technology**.
 
 | Detail | Info |
 |--------|------|
@@ -25,17 +25,21 @@ This repository contains all tasks, projects, and deliverables completed during 
 
 ## 📂 Tasks
 
+---
+
 ### ✅ Task 1 — Linear Regression: House Price Predictor
-
-
 
 > Build & Evaluate a Linear Regression Model on the California Housing Dataset
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anujjoga/Maincrafts-AIML-Internship/blob/main/Task1/task1_ml_linear_regression.ipynb)
+
+#### 📁 Files
+
 | File | Description |
 |------|-------------|
-| 📓 task1_ml_linear_regression.ipynb | Full Jupyter Notebook with code, plots & comments |
-| 📊 task1_report.pdf | 4-page PDF report summarizing EDA, model & results |
-| 🤖 house_price_model.pkl | Saved trained Linear Regression model |
+| 📓 [task1_ml_linear_regression.ipynb](./Task1/task1_ml_linear_regression.ipynb) | Jupyter Notebook with code, plots & comments |
+| 📊 [task1_report.pdf](./Task1/task1_report.pdf) | 4-page PDF report with EDA, model & results |
+| 🤖 [house_price_model.pkl](./Task1/house_price_model.pkl) | Saved trained Linear Regression model |
 
 #### 📈 Model Results
 
@@ -46,11 +50,13 @@ This repository contains all tasks, projects, and deliverables completed during 
 | R² Score | **0.6060** | Model explains 60.6% of variance |
 
 #### 🛠️ Tools Used
+
 Python | Pandas | NumPy | Scikit-learn | Matplotlib | Seaborn | Jupyter
 
 #### 🔍 Key Learnings
+
 - Performed EDA: distributions, correlations, missing value checks
-- Applied 80/20 train/test split
+- Applied 80/20 train/test split with random_state=42
 - Trained LinearRegression from scikit-learn
 - Evaluated using MAE, RMSE, and R² metrics
 - Plotted Actual vs Predicted and Residual charts
@@ -60,15 +66,11 @@ Python | Pandas | NumPy | Scikit-learn | Matplotlib | Seaborn | Jupyter
 
 ## 🚀 How to Run
 
-```python
-# Install dependencies
 pip install pandas numpy scikit-learn matplotlib seaborn joblib jupyter
 
-# Launch Notebook
-jupyter notebook task1_ml_linear_regression.ipynb
-```
+jupyter notebook Task1/task1_ml_linear_regression.ipynb
 
-Or open in **Google Colab** — upload the .ipynb file at colab.research.google.com
+Or click the Open in Colab button above to run directly in browser ✅
 
 ---
 
@@ -81,4 +83,4 @@ Or open in **Google Colab** — upload the .ipynb file at colab.research.google.
 ---
 
 > Internship offered by Maincrafts Technology
-> MSME Certified | Govt. of India | UDYAM-UP-750096043
+> MSME Certified | Govt. of India | UDYAM-UP-750096043-UP-750096043
